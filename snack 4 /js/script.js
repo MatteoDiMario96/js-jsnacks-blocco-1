@@ -12,7 +12,7 @@ const array = [
 
 const nomeUtente = prompt("Dimmi il tuo nome e scopri se puoi partecipare!")
 
-if (nomeUtente == array){
+if (array.includes(nomeUtente)){
     console.log("Puoi partecipare!")
 } else{
         console.log("Mi dispiace non puoi partecipare")
