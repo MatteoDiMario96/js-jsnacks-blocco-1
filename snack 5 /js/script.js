@@ -5,10 +5,10 @@
 const array = [
 
 ];
-let numeriUtente;
+
 
 for (let i = 0; i < 6; i++){
-    numeriUtente = Number.parseInt(prompt("Dammi un nummero!"), 10);
+    const numeriUtente = Number.parseInt(prompt("Dammi un nummero!"), 10);
 
     if ( numeriUtente % 2 == 1 ){
         array.push(numeriUtente)
