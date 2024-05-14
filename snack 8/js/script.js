@@ -7,8 +7,8 @@ const divVerdeAppend = document.querySelector("div#verde");
 let pEl = document.createElement("p");
 
 
-if(array.values % 2 == 0){
-    pEl.append(array.values)
+if(array[index] % 2 == 0){
+    pEl.append()
     divRossoAppend.appendChild(pEl)
 }
 console.log(divRossoAppend)
