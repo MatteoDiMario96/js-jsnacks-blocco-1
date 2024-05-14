@@ -6,11 +6,10 @@ const array = [
 
 ];
 
-
 for (let i = 0; i < 6; i++){
     const numeriUtente = Number.parseInt(prompt("Dammi un nummero!"), 10);
 
-    if ( numeriUtente % 2 == 1 ){
+    if ( numeriUtente % 2 === 1 ){
         array.push(numeriUtente)
     } 
 }
