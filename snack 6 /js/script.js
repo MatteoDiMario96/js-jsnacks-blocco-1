@@ -1,5 +1,7 @@
 // Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
 
+const somma = 0;
+
 const array = [
     1,
     2,
@@ -12,7 +14,9 @@ const array = [
     9,
     10
 ]
-
-if (array.indexOf % 2 == 1) {
-    
+for (let i = 1; i < array.length; i++){
+    if (array.indexOf % 2 == 1) {
+    somma += array[i]
+    }   
 }
+console.log(somma)
