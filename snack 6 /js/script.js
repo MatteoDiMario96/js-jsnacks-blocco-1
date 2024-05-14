@@ -13,10 +13,10 @@ const array = [
     8,
     9,
     10
-]
-for (let i = 1; i < array.length; i++){
-    if (i % 2 == 1) {
-    somma += array[i]
-    }   
-}
+// ]
+// for (let i = 1; i < array.length; i++){
+//     if (i % 2 == 1) {
+//     somma += array[i]
+//     }   
+// }
 console.log(somma)
